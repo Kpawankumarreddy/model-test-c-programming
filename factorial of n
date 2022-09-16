@@ -1,0 +1,48 @@
+#include<stdio.h>
+ 
+int main()
+{
+    int i,n,factorial;
+     
+ 
+    printf(" Enter the number : ");
+    scanf("%d",&n);
+ 
+    factorial = 1;
+    for(i=1; i<=n; i++)
+    {
+        factorial = factorial * i;
+    }
+ 
+ 
+    printf("\n Factorial of %d is %d",n,factorial );
+    return 0;
+}
+
+Sample Input:
+N = 4
+Sample Output:
+4 Factorial = 24
+
+
+ Enter the number : 0
+
+ Factorial of 0 is 1
+ 
+  Enter the number : -5
+
+ Factorial of -5 is 1
+ 
+ enter the number : 1
+ 
+ factorial of 1 : 1
+ 
+ enter the number :q
+ 
+ factorial of q  : invalid in
+ 
+ enter the number : 3A
+ 
+ factorial of 3A : invalid input
+ 
+ 
